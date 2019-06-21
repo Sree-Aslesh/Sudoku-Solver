@@ -1,7 +1,14 @@
 # Sudoku-Solver
 A c++ code using backtracking algorithm to solve any solvable sudoku.
 
-This code has been improvised to use digital image processing to segment the lines given in the sudoku to extract the data of the sudoku into a 9*9 matrix. 
+This code has been improvised to use digital image processing to segment the lines given in the sudoku to extract the data of the sudoku into a 9*9 matrix. A blank sudoku is given below along with anothe image showning the segmentation done by the matlab code.
+
+<p align="center">
+ <img src="https://github.com/Sree-Aslesh/Sudoku-Solver/blob/master/Media/blank-sudoku-grid.png" width="300" />  
+ <img src="https://github.com/Sree-Aslesh/Sudoku-Solver/blob/master/Media/segmented.png" width="300" /> 
+</p>
+
+A sample sudoku is given below.
 
 <p align="center">
   <img width="300" height="300" src="https://github.com/Sree-Aslesh/Sudoku-Solver/blob/master/Media/364px-Sudoku-by-L2G-20050714.png">
@@ -14,6 +21,10 @@ This sudoku runs through a backtracking algorithm to solve the sudoku. Backtrack
   <img width="300" height="300" src="https://github.com/Sree-Aslesh/Sudoku-Solver/blob/master/Media/Sudoku_solved_by_bactracking.gif">
 </p>
 
-The results of thew sudoku are shown as follows -
+The results of the sudoku solver are shown by ovelapping the image of the initially taken sudoku and the output produced. An example of an output is shown below.
+
+<p align="center">
+  <img width="300" height="300" src="https://github.com/Sree-Aslesh/Sudoku-Solver/blob/master/Media/solved.png">
+</p>
 
 
